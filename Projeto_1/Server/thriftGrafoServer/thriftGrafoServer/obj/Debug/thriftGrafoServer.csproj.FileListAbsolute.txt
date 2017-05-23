@@ -1,0 +1,9 @@
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\thriftGrafoServer.exe.config
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\thriftGrafoServer.exe
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\thriftGrafoServer.pdb
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\Newtonsoft.Json.dll
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\Thrift.dll
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\bin\Debug\Newtonsoft.Json.xml
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\obj\Debug\thriftGrafoServer.csprojResolveAssemblyReference.cache
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\obj\Debug\thriftGrafoServer.exe
+D:\UFU\SD\Projeto 1-1\Server\thriftGrafoServer\thriftGrafoServer\obj\Debug\thriftGrafoServer.pdb

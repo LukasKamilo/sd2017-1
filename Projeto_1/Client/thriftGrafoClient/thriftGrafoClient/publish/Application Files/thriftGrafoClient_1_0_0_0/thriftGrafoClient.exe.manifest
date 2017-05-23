@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="thriftGrafoClient.exe" version="1.0.0.0" publicKeyToken="13c25649f5648725" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="thriftGrafoClient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="thriftGrafoClient.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="652288">
+      <assemblyIdentity name="Newtonsoft.Json" version="10.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bMDLzVxHCcahyX9VgcNH2T5YbnzA1kv/tNMsbnU0dqQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thrift.dll" size="65536">
+      <assemblyIdentity name="Thrift" version="0.9.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TCDtwdYJ3AP0N0zzHH7vJzvH1oJheljoylfNclHinrQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="thriftGrafoClient.exe" size="45024">
+      <assemblyIdentity name="thriftGrafoClient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UXOmyiBlI449Zm3LneBRnQ4AOwKCAZ7J89vT19gyBHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="thriftGrafoClient.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1DH2KSP\luksc" issuerKeyHash="908c5bd7a5dc53175f512845ff02a50b1409d98a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R3QjN2hlRigE22ClTScNKYyRsof29HgC+NQ8/XzGBbc=</DigestValue></Reference></SignedInfo><SignatureValue>td2gO2Yfl+5flQTwWNvw7BCRfVwNqwAYOzIv/1J1sa6fYbFPKY2xAbVkQ0f/D2CL1P5XYyuuKROIYQ2GADUcaVJtMJp2q0BYzzfQ50L8fejmCkq2bwpcH22pOOEITwMVwa4evED7pt3LssnTD9uqb/mOR5lKsbUp3qxszClsyoc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uBY90t/mgJlZ2cbz1IkFE7GH2KoyccQdIyH0RFba2NsKm0wjcHXxcpaC8Xs9Tmwzdt+KtUgmxXoEEnK3NHdfqqhjSgY7WRduMvb+1OqKWiBLcW5o4VvN5LTCFwJGQrT90vmKuwV3cwf0+rEzJ7O0ARjECEweZ84wvmPLWng0jkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b705c67cfd3cd4f80278f4f687b2918c290d274da560db042846656837237447" Description="" Url=""><as:assemblyIdentity name="thriftGrafoClient.exe" version="1.0.0.0" publicKeyToken="13c25649f5648725" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1DH2KSP\luksc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NFmp4fNSm9gS3eKvWDITNm6NXVc741RylpewfmLeTFY=</DigestValue></Reference></SignedInfo><SignatureValue>AI+PJ4QQGSUfDeXARrG5C6xAkA1xn1lfJImgNd+QEt+fzbxHJA4tfIGLWpIOizcsRmvUudb3zCGhvpG4DqcDsBC48kUPWdvvo92YEGubExsevbJq+G2vMTmWH044a89FvPEuNtadIo/iJ9yJ+Hy6o5Fqk0RklD5GqL+mt7nA4/g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uBY90t/mgJlZ2cbz1IkFE7GH2KoyccQdIyH0RFba2NsKm0wjcHXxcpaC8Xs9Tmwzdt+KtUgmxXoEEnK3NHdfqqhjSgY7WRduMvb+1OqKWiBLcW5o4VvN5LTCFwJGQrT90vmKuwV3cwf0+rEzJ7O0ARjECEweZ84wvmPLWng0jkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcyD9ZaNq0blP/gdHqy8IMDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEARABIADIASwBTAFAAXABsAHUAawBzAGMwHhcNMTcwNTIxMDQyNDA3WhcNMTgwNTIxMTAyNDA3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEARABIADIASwBTAFAAXABsAHUAawBzAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALgWPdLf5oCZWdnG89SJBROxh9iqMnHEHSMh9ERW2tjbCptMI3B18XKWgvF7PU5sM3bfirVIJsV6BBJytzR3X6qoY0oGO1kXbjL2/tTqilogS3FuaOFbzeS0whcCRkK0/dL5irsFd3MH9PqxMyeztAEYxAhMHmfOML5jy1p4NI5FAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcA48tr8k9p5DKPkdG1gw2OexqDbzXfuDs7RyJjeGuv5ApMN86tzVYzs4qdzdG7NCChpCiJEh0bo+vx7s2kZnXV4MBdW0rleErfOCOO59CKnNO9B3Z2MVLfkpHcnHhbKxkhCIq4cArggK0mRTwCCaFsLUloi/PTIYntzA/Jd7HM8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
