@@ -1,0 +1,9 @@
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\ModelProject2_Server.exe.config
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\ModelProject2_Server.exe
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\ModelProject2_Server.pdb
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\Newtonsoft.Json.dll
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\Thrift.dll
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\bin\Debug\Newtonsoft.Json.xml
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\obj\Debug\ModelProject2_Server.csprojResolveAssemblyReference.cache
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\obj\Debug\ModelProject2_Server.exe
+D:\UFU\SD\Projeto_2\Protótipo\Servidor\ModelProject2_Server\ModelProject2_Server\obj\Debug\ModelProject2_Server.pdb

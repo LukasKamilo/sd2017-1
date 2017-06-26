@@ -1,0 +1,45 @@
+﻿<Window x:Class="UIProject2_Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIProject2_Server"
+        mc:Ignorable="d"
+        Title="Banco de Dados - SD" Height="493.066" Width="695.162" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="Design/icon.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF041621" Height="37" Margin="0,-2,0,0" Stroke="Black" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Banco de Dados - SD / SERVER" Margin="0,-2,0,0" Foreground="White" FontSize="20" FontWeight="Bold" FontStyle="Italic" Height="37" VerticalAlignment="Top"/>
+        <GroupBox x:Name="groupBox" Header="Dados do servidor" Margin="10,40,10,0" VerticalAlignment="Top" Height="127" Foreground="#FF041621" BorderBrush="#FF041621">
+            <Grid Margin="0,0,-2,-3">
+                <Label x:Name="label1" Content="Identificador" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <Label x:Name="label2" Content="Nome" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <Label x:Name="label3" Content="IP" HorizontalAlignment="Left" Margin="0,52,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <Label x:Name="label4" Content="Porta" HorizontalAlignment="Left" Margin="0,73,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtIdentificadorServidorLocal" HorizontalAlignment="Left" Height="18" Margin="72,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="11" PreviewTextInput="NumberValidationTextBox"/>
+                <TextBox x:Name="txtNomeServidorLocal" HorizontalAlignment="Left" Height="18" Margin="72,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="11"/>
+                <TextBox x:Name="txtIpServidorLocal" HorizontalAlignment="Left" Height="18" Margin="72,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="11"/>
+                <TextBox x:Name="txtPortaServidorLocal" HorizontalAlignment="Left" Height="18" Margin="72,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="11" PreviewTextInput="NumberValidationTextBox"/>
+                <Label x:Name="label5" Content="Caminho Arquivo" HorizontalAlignment="Left" Margin="247,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtCaminhoArquivoServidorLocal" Height="18" Margin="352,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="251"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1" Header="Dados servidores vizinhos" Margin="10,178,10,0" VerticalAlignment="Top" Height="185" Foreground="#FF041621" BorderBrush="#FF041621">
+            <Grid Margin="0,0,-2,-1">
+                <Label x:Name="label1_Copy" Content="Identificador" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtIdentificadorServidorVizinho" HorizontalAlignment="Left" Height="18" Margin="79,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="11" PreviewTextInput="NumberValidationTextBox"/>
+                <Label x:Name="label3_Copy" Content="IP" HorizontalAlignment="Left" Margin="254,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtIpServidorVizinho" HorizontalAlignment="Left" Height="18" Margin="279,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="11"/>
+                <Label x:Name="label4_Copy" Content="Porta" HorizontalAlignment="Left" Margin="448,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtPortaServidorVizinho" HorizontalAlignment="Left" Height="18" Margin="488,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="11" PreviewTextInput="NumberValidationTextBox"/>
+                <Button x:Name="btnAdicionar" Content="Adicionar" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" Width="75" Foreground="White" Background="#FF041621" BorderBrush="#FF8D8D8D" Click="btnAdicionar_Click"/>
+                <DataGrid x:Name="dgVizinhos" HorizontalAlignment="Left" Margin="0,68,0,0" VerticalAlignment="Top" Width="659" Height="96"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnStart" Content="Start" Margin="234,401,234,0" Background="#FF041621" Foreground="White" Height="20" VerticalAlignment="Top" Click="btnStart_Click"/>
+
+    </Grid>
+</Window>

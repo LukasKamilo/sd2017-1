@@ -1,0 +1,1 @@
+[{"__isset":{"nome":true,"cor":true,"descricao":true,"peso":true},"Nome":1,"Cor":1,"Descricao":"1","Peso":1.0},{"__isset":{"nome":true,"cor":true,"descricao":true,"peso":true},"Nome":2,"Cor":2,"Descricao":"2","Peso":2.0}]
